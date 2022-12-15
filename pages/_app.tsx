@@ -63,13 +63,13 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div className="app" ref={fwdRef}>
       <div className={`preloader ${reveal && "reveal"} `}>
         <div className={`loader_logo`}>
-          <h1>Josh Waay Portfolio Hub</h1>
+          <h1>Josh Waay WebGL Hub</h1>
         </div>
         <div className="project_containers">
           <a href="https://like-no-ones-watchin.vercel.app/" rel="noreferrer" target={"_blank"}>
             <div className="project">
               <img src="/images/like-no-ones-watchin.png" alt="" />
-              <h2>Like no one's watchin</h2>
+              <h2>Like no one&apos;s watchin</h2>
             </div>
           </a>
           <a href="https://the-tale-of-abe.vercel.app/" rel="noreferrer" target={"_blank"}>
@@ -81,7 +81,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <a href="https://help-me-im-lost.vercel.app/" rel="noreferrer" target={"_blank"}>
             <div className="project">
               <img src="/images/help-me-im-lost.png" alt="" />
-              <h2>Help me! I'm lost!</h2>
+              <h2>Help me! I&apos;m lost!</h2>
             </div>
           </a>
         </div>
